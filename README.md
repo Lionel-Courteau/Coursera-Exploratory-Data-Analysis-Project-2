@@ -11,7 +11,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
  # Data
 The data for this assignment are available from the course web site as a single zip file:
 
-[Data for Peer Assessment [29Mb](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip)
+Data for Peer Assessment [29Mb](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip)
 
 The zip file contains two files:
 
@@ -44,7 +44,7 @@ NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 ````
 
-as long as each of those files is in your current working directory (check by calling \color{red}{\verb|dir()|}dir() and see if those files are in the listing).
+as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
 
  # Assignment
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
